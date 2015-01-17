@@ -51,6 +51,10 @@ Tags: HTML, Template, Coming Soon, Kite
 
 /* 2 - Global Style
 ---------------------------------------------------------------------- */
+
+body,html{
+height: 100%;
+}
 body{
 	font-family:'Roboto', sans-serif;
 	color:#fff;
@@ -75,7 +79,7 @@ a:focus{
 }
 .pattern{
 	/*background:rgba(0,0,0,.5) url(../images/pattern.png);*/
-	padding-top:100px;
+	padding-top:40px;
 }
 .container{
 	overflow:hidden;
@@ -463,7 +467,7 @@ a:focus{
 /* 4 - Page Top Section 
 ---------------------------------------------------------------------- */
 #page-top{
-background-color: #3498db;
+background-color: #0D1C25;
 
 
 }
@@ -1202,11 +1206,29 @@ position: fixed;
 color: #E74C3C;
 }
 
-.divvideo{ 
- height:100;
+div.divvideo{ 
  width: 100%;
  overflow: hidden;
  display: block;
+ background-color: #0D1C25;
+}
+
+a#restartvideo{
+position: absolute;
+z-index: 100000;
+background-color: #E74C3C;
+border-radius: 100%;
+height: 100px;
+width: 100px;
+    opacity: 0;
+    	-webkit-transition:all 2s;
+	   -moz-transition:all 2s;
+	    -ms-transition:all 2s;
+	     -o-transition:all 2s;
+	        transition:all  2s;
+}
+a#restartvideo.show{
+    opacity:0.8;
 }
 /* 10 - Preloader End
 ---------------------------------------------------------------------- */
