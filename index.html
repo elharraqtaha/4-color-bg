@@ -22,14 +22,16 @@
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>
 	<![endif]-->
-	
-  <script type="text/javascript" src="js/jquery-1.10.0.min.js"></script>
-  <script type="text/javascript" src="js/jquery-ui-1.8.22.custom.min.js"></script>
-  <script type="text/javascript" src="js/jquery.imagesloaded.js"></script>
-  <script type="text/javascript" src="js/video.js"></script>
-  <script type="text/javascript" src="js/bigvideo.js"></script>
-  <script type="text/javascript" src="js/langage.js"></script>
+	<!-- jQuery Library -->
+	<script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+	<!-- Modernizr js -->
+	<script type="text/javascript" src="assets/js/modernizr-2.8.0.min.js"></script>
+	<!-- Plugins -->
+	<script type="text/javascript" src="assets/js/plugins.js"></script>
+    
+      <script type="text/javascript" src="js/jquery.imagesloaded.js"></script>
 
+  <script type="text/javascript" src="js/langage.js"></script>
 </head>
 <body>
 
@@ -68,8 +70,8 @@
 		<nav class="collapse navbar-collapse">
 			<!-- Main navigation -->
 			<ul id="headernavigation" class="nav navbar-nav">
-				
-				<li class="active"><a href="#page-top">Home</a></li>	
+				<li class="active"><a href="#page-top">intro</a></li>	
+				<li><a href="#page-top .pattern">Home</a></li>	
 				<li><a href="#about">About</a></li>	
 				<li><a href="#subscribe">Subscribe</a></li>	
 				<li><a href="#contact">Contact</a></li>		
@@ -81,12 +83,11 @@
 
 	<!-- Page Top Section -->
 	<section id="page-top" class="section-style"    data-background-image="" >
- <video id="videobcg" preload="auto"  autoplay="true"   >
-     <source src="images/team/1.mp4" type="video/mp4">
-     
-          Sorry, your browser does not support HTML5 video.
-</video> 
- 
+        <div class="divvideo">
+             <video id="videobcg" preload="auto" >
+                 <source src="images/team/1.mp4" type="video/mp4">
+            </video> 
+        </div>
 		<div class="pattern height-resize">
 			<div class="container">
 		 
@@ -478,13 +479,11 @@
 	</footer>
 	<!-- Footer Section End -->
 
-	<!-- jQuery Library -->
-	<script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
-	<!-- Modernizr js -->
-	<script type="text/javascript" src="assets/js/modernizr-2.8.0.min.js"></script>
-	<!-- Plugins -->
-	<script type="text/javascript" src="assets/js/plugins.js"></script>
+
 	<!-- Custom JavaScript Functions -->
 	<script type="text/javascript" src="assets/js/functions.js"></script>
+    
+    
+     <script type="text/javascript" src="js/playvideo.js"></script>
 </body>
 </html>

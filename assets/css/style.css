@@ -470,17 +470,11 @@ background-color: #3498db;
 
 
 #videobcg { 
-     position: absolute;
      top: 0px;
      left: 0px;
-     min-width: 100%;
-     min-height: 100%;
-     width: auto;
-     height: auto;
-     
-     overflow: hidden;
+    width: 100%;
+     height: 100%;
 }
-
 
 .site-title{
 color:red;
@@ -522,36 +516,24 @@ color:red;
 	border:1px solid #fff;
 	margin:50px auto;
 
-	-webkit-border-radius:15px;
-	   -moz-border-radius:15px;
-	    -ms-border-radius:15px;
-	     -o-border-radius:15px;
-	        border-radius:15px;
-	
-	-webkit-transform:rotate(45deg);
-	   -moz-transform:rotate(45deg);
-	    -ms-transform:rotate(45deg);
-	     -o-transform:rotate(45deg);
-	        transform:rotate(45deg);
+	-webkit-border-radius:100%;
+	   -moz-border-radius:100%;
+	    -ms-border-radius:100%;
+	     -o-border-radius:100%;
+	        border-radius:100%;
 }
 .time-box-inner{
 	width:150px;
 	height:150px;
 	display:table;
 	text-align:center;
-
-	-webkit-transform:rotate(-45deg);
-	   -moz-transform:rotate(-45deg);
-	    -ms-transform:rotate(-45deg);
-	     -o-transform:rotate(-45deg);
-	        transform:rotate(-45deg);
 }
 .time-number{
-	font-size:65px;
+	font-size:50px;
 	width:100%;
 	display:inline-block;
 	font-weight:300;
-	padding-top: 15%;
+	padding-top: 25%;
 		
 	-webkit-transition:all .25s;
 	   -moz-transition:all .25s;
@@ -1218,9 +1200,14 @@ position: fixed;
 }
 .langage a{
 color: #E74C3C;
-
 }
 
+.divvideo{ 
+ height:100;
+ width: 100%;
+ overflow: hidden;
+ display: block;
+}
 /* 10 - Preloader End
 ---------------------------------------------------------------------- */
 

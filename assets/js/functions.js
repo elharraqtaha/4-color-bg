@@ -79,11 +79,7 @@ jQuery(document).ready(function($) {
 
 	    });
 
-$(function() {
-    var BV = new $.BigVideo();
-    BV.init();
-    BV.show('images/team/1.mp4"');
-});
+
     /* Time Countdown End
 	-------------------------------------------------------------------*/
 
