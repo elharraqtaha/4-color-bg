@@ -1206,6 +1206,21 @@ background: #00aaff;
 	}
 }
 
+.langage{
+position: fixed;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    top: 15px;
+    left: 10px;
+    font-size: 18px;
+    color: #E74C3C;
+}
+.langage a{
+color: #E74C3C;
+
+}
+
 /* 10 - Preloader End
 ---------------------------------------------------------------------- */
 
